@@ -68,8 +68,12 @@ Page({
    var id = event.target.id;
    if (id == this.data.idBack)//退格
    {
-     console.log("但是")
+     console.log("数据接受..")
    }
- }
-
+ },
+  history: function () {
+    wx.navigateTo({
+      url: "../list/list"
+    })
+  },
 })

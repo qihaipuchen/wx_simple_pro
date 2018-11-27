@@ -1,18 +1,5 @@
-page{
+/* pages/list/list.wxss */
 
-  height: 100%
-}
-.containercontainer{
-  
-  height: 100%
-}
-
-.slide-image{
-
-  height: 150px;
-  width: 100%;
-display: block;
-}
 .weui_cell{
     position: relative;
     display: flex;

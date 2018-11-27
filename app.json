@@ -3,7 +3,8 @@
     "pages/banner/banner",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -25,12 +26,12 @@
         "iconPath": "images/footer-icon-04.png",
         "selectedIconPath": "images/footer-icon-04-active.png"
       },
-        {
-          "pagePath": "pages/me/me",
-          "text": "text",
-          "iconPath": "images/footer-icon-01.png",
-          "selectedIconPath": "images/footer-icon-01-active.png"
-        }
+      {
+        "pagePath": "pages/me/me",
+        "text": "text",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png"
+      }
     ]
   }
 }

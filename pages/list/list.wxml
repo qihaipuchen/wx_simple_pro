@@ -1,14 +1,5 @@
-<view class="containercontainer">
-
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for-items="{{banner_list[0].banner}}">
-      <swiper-item>
-        <image src="{{item.pic_url}}" class="slide-image"></image>
-      </swiper-item>
-    </block>
-  </swiper>
-
- <view class="info_list">
+<!--pages/list/list.wxml-->
+  <view class="info_list">
     <block wx:for="{{userListInfo}}">
         <view class="weui_cell">
             <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
@@ -20,5 +11,3 @@
         </view>
     </block>
   </view> 
-
-</view>
