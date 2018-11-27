@@ -1,0 +1,10 @@
+.userinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.container{
+  background: cadetblue;
+  display: flex
+}

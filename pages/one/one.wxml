@@ -1,0 +1,7 @@
+<view class='container'>
+
+<view class='userinfo'> 
+<button>获取头像昵称</button>
+<button>获取头像昵称</button>
+</view>
+</view>
