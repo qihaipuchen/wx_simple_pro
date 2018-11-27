@@ -1,0 +1,21 @@
+<!--pages/me/me.wxml-->
+<view class="content">
+
+  <!---按钮事件-->
+
+  <view class='btnGroup'>
+    <view class='item orange' bindtap='clientButton'id="{{idBack}}">退格</view>
+    <view class='item orange' bindtap='clientButton'>清屏</view>
+    <view class='item orange' bindtap='clientButten'>+/-</view>
+    <view class='item orange' bindtap='clientButten'>+</view>
+  </view>
+
+
+<view class='btnGroup'>
+<view class='blue' bindtap='clientButten'>9</view>
+<view class='blue' bindtap='clientButten'>8</view>
+<view class='blue' bindtap='clientButten'>7</view>
+<view class='item orange' bindtap='clientButten'>-</view>
+</view>
+
+</view>
