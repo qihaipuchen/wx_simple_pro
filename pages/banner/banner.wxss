@@ -23,7 +23,7 @@ display: block;
     border-bottom: 1px solid #dadada;
 }
 .weui_cell_hd{
-  display: inline-block;
+  display: weui_cell-block;
   width: 20px;
   margin-right: 5px;
 }

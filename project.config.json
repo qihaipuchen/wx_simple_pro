@@ -11,10 +11,10 @@
 		"newFeature": true,
 		"autoAudits": false
 	},
-	"compileType": "miniprogram",
+	"compileType": "plugin",
 	"libVersion": "2.4.0",
 	"appid": "wx804254384018e344",
-	"projectname": "procast",
+	"projectname": "release_pro",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

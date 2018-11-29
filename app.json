@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/banner/banner",
+        
+"pages/banner/banner",
+    "pages/lianxi/lianxi",
     "pages/index/index",
     "pages/logs/logs",
     "pages/me/me",
@@ -16,6 +18,12 @@
     "list": [
       {
         "pagePath": "pages/banner/banner",
+        "text": "text",
+        "iconPath": "images/footer-icon-04.png",
+        "selectedIconPath": "images/footer-icon-03-active.png"
+      },
+      {
+        "pagePath": "pages/lianxi/lianxi",
         "text": "text",
         "iconPath": "images/footer-icon-03.png",
         "selectedIconPath": "images/footer-icon-03-active.png"

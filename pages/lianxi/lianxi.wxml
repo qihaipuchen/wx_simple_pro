@@ -1,0 +1,61 @@
+<view class='group'>
+  <block wx:for='{{iconSize}}'>
+    <icon type='success' size='{{item}}' />
+  </block>
+</view>
+
+<!-- <view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40" />
+  </block>
+</view>
+<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view> -->
+<view class='linnerlayout' bindtap='onbindtap' wx:for="{{[1,2,3,4]}}" wx:for-item="i">
+<view class='linicon'>
+    <icon type='success' size='40' />
+  </view>
+   <view>
+    <view>网络请求{{i}}</view>
+  </view>
+</view> 
+  
+<view class='linnerlayout' bindtap='onbindtap'> 
+  <view class='linicon'>
+    <icon type='success' size='40' />
+  </view>
+  <view>
+    <view>{{datacontent.Result.title}}</view>
+  </view>
+</view>
+
+<view class='linnerlayout' bindtap='onbindtap'> 
+  <view class='linicons'>
+    <icon type='success' size='40' />
+        <view>网络请求</view>
+  </view>
+    <view class='linicon'>
+    <icon type='success' size='40' />
+        <view>{{res.shidu}}</view>
+  </view>
+   <view class='linicon'>
+    <icon type='success' size='40' />
+        <view>网络请求</view>
+  </view>
+</view>
+
+<view class="flex-wrp"style="flex-direction:row;"wx:for="{{Industry}}">
+<view class="flex-item bc_green">
+({{index}}){{item.date}} {{item.high}} {{item.low}}
+{{item.notice}}
+</view>
+</view>
+<!--  
+<loading hidden="{{loadingHidden}}">
+        加载中...
+    </loading> -->

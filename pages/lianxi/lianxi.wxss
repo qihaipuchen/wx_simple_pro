@@ -1,0 +1,26 @@
+/* pages/lianxi/lianxi.wxss */
+
+page {
+  width: 100%;
+  background: cadetblue;
+}
+
+.group {
+  background: wheat;
+  flex-direction: column;
+}
+
+.linnerlayout {
+  background: chartreuse;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* justify-content: center;    */
+  border-bottom: 1px solid #fff;
+}
+
+.linicon {
+  display: flex;
+  align-items: center;
+  margin-left: 20rpx;
+}
